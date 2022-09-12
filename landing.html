@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>999 landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/pizza-correction.css">
+    <link rel="stylesheet" href="./styles/styles-landing.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo"> <a href="#"><img height="100px" src="./images/logo/logo1.png" alt="company logo"></a>
+            </h2>
+            <div class="toggle active"></div>
+        </header>
+        <!-- <video src="./images/background/Clouds (1 hour long).mp4" loop autoplay muted></video>--> -->
+        <div class="overlay"></div>
+        <div class="text">
+            <h2 class="h2">
+                <img src="" alt="">
+            </h2>
+            <h3>Welcome to Triple Nine wear inc.</h3> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore debitis aut harum reprehenderit,
+                accusantium
+                cupiditate aperiam praesentium, iusto amet fuga iure natus esse dolore aliquid molestias laudantium.
+                Iusto,
+                veniam delectus!</p>
+            <a target="_blank" href="./index.html" data-text="Explore">Explore</a>
+        </div>
+
+        <ul class="socials">
+            <li>
+                <a href="#" class="fa fa-facebook"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-twitter"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-pinterest"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-linkedin"></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-instagram"></a>
+        </ul>
+        <p class="fa fa-cart"></p>
+
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Vision</a></li>
+            <li><a href="#">log in</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+
+        const showcase = document.querySelector('showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.showcase('active')
+
+        })
+    </script>
+
+</body>
+
+</html>
